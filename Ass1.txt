@@ -1,0 +1,88 @@
+Ques 1 :- What is Emmet ? 
+Ans :- Emmet is a set of plug-ins for text editors that allows for high-speed coding and editing in HTML, XML, XSLT, and other structured code formats via content assist. The project was started by Vadim Makeev in 2008 and continues to be actively developed by Sergey Chikuyonok and Emmet users.
+
+Ques 2:- What is the difference between a library and a framework?
+Ans :- //////////LIBRARY////////////
+
+- PROVIDES REUSABLE FUNCTION FOR OUR CODE
+- OUR CODE CONTROLS WHERE AND WHEN TO CALL OUR LIBRARY
+- LIBRARY CAN BE ADDED TO AUGMENT THE FEATURES OF AN EXISTING APPICATION 
+- FACILITATES PROGRAM BINDING 
+- HELPS US TO REUSE A SOFTWARE FUNCTION 
+- INTENT OF A LIBRARY IS TO PROVIDE REUSABLE SOFTWARE FUNCTIONALITY
+
+//////////FRAMEWORK///////////
+
+- PROVIDES READY TO USE TOOLS, STANDARDS , TEMPLATES AND POLICIES FOR FAST APPLICATION DEVELOPMENT 
+- THE FRAMEWORK CONTROLS CALLING OF LIBRARIES FOR OUR CODE 
+- TO LEVERAGE THE BENEFIT OF A FRAMEWORK, A FRESH APPICATION CAN BE DEVELOPED FOLLOWING THE FRAMEWORK'S GUIDELINE 
+- EASY TO CREATE AND DEPLOY AN APPICATION
+- HELPS US TO DEVELOP A SOFTWARE APPICATION QUICKLY
+- INTENT OF A FRAMEWORK IS TO REDUCE THE COMPLEXITY OF THE SOFTWARE DEVELOPMENT PROCESS
+
+
+Ques 3:- What is a CDN ? Why do we use it?
+Ans :- A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
+
+The popularity of CDN services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon.
+
+The primary purpose of a content delivery network (CDN) is to reduce latency, or reduce the delay in communication created by a network's design.
+
+Ques 4:- Why is React known as React?
+Ans:- 
+////////////////////1. The Basics: What is React? 🌐//////////////////////////
+Before we get into the ‘why’ of the name, let’s get the basics down. React is a JavaScript library created by Facebook. Developers use it to build interactive user interfaces (UI) for websites and web applications. Think of it like the LEGO blocks for the web; with React, developers can create, combine, and reuse components (or blocks) to make beautiful, interactive web pages.
+
+
+///////////////2. Reacting to Changes ⚡////////////////////////////////
+Imagine you have a toy robot. Each time you press a button on the robot, it reacts and does something—like moving its arm or lighting up its eyes. In a similar way, React allows web pages to “react” instantly to user actions without having to reload the entire page.
+
+
+//////////////3. The Secret Behind the Magic: The Virtual DOM 🎩////////////////
+To understand why it’s called React, we must introduce a concept called the “Virtual DOM” (Document Object Model). Imagine the DOM as a big tree 🌲 of all the elements on a webpage. React, with its virtual DOM, finds and updates only the necessary parts, making websites faster and smoother.
+
+
+////////////////4. Components: The Building Blocks 🧱///////////////////////
+React's name also reflects its approach to building UIs. In React, everything is made up of "components". A component could be a button, a menu, a picture, or even a whole section of a page. Just like you use toy parts to create figures, developers use components to create web pages.
+
+
+///////////////5. In Summary 🌟/////////////////////
+React is aptly named because:
+----------- It "reacts" quickly to changes without reloading the whole page.
+----------- It uses the virtual DOM to efficiently update parts of a webpage.
+----------- It’s built around components that "react" and update.
+
+
+So, the next time you’re browsing your favourite website or using a web application, remember that there might be some React magic behind the scenes.
+
+Ques 5:- What is crossorigin in script tag?
+Ans:-
+The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+CORS is used to manage cross-origin requests.
+
+CORS stands for Cross-Origin Resource Sharing, and is a mechanism that allows resources on a web page to be requested from another domain outside their own domain. It defines a way of how a browser and server can interact to determine whether it is safe to allow the cross-origin request. CORS allows servers to specify who can access the assets on the server, among many other things.
+
+
+Ques 6:- What is the difference between React and ReactDOM?
+Ans:-
+React is a JavaScript library for building User Interfaces and ReactDOM is the JavaScript library that allows React to interact with the DOM.
+
+Ques 7:- What is difference between react.development.js and react.production.js files via CDN?
+Ans:-
+In development mode, we can enable and utilize React developer tools, devtools profiler, debugging environment attached with source code. We can utilize various functionalities such as Hot Module Replacement, diagnostics so that development environment will help to debug code.
+
+In production mode, compression and minification of Javascript and other resources happens to reduce size of the code which is not the case when it comes to development mode. Performance will be much faster in production mode when compared to development mode.
+
+
+
+react.development.js - More developer friendly, readable, will take more size.
+react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+
+
+Ques 8:  What is async and defer?
+Ans:-
